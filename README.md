@@ -93,7 +93,7 @@ This end-to-end dashboard was built by following the [Codebasics Power BI Course
 - **Profit & Loss Summary**: Revenue, expenses, deductions  
 - **Top & Bottom Customers**: Based on Net Sales and Profitability  
 - Insight into financial health of the organization over time
-![Finace.gif](https://github.com/RamaniRavi/Business_Insights_360/blob/main/Resourcest/Finance.gif)
+![Finace.gif](https://github.com/RamaniRavi/Business_Insights_360/blob/main/Resources/Finance.gif)
 
 ---
 
