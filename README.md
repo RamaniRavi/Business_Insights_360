@@ -22,36 +22,6 @@ This end-to-end dashboard was built by following the [Codebasics Power BI Course
 
 ---
 
-## 🗃️ Importing Data into Power BI
-
-- The source database for this project is **MySQL**.
-- Data was imported into Power BI Desktop using MySQL Database connector.
-- Access credentials were provided to establish the connection and load the required tables.
-
----
-
-## 🧩 Data Model
-
-- Data modeling is the **foundation** of a successful Power BI report.  
-- A poor data model can drastically affect report **performance and accuracy**.
-- The project follows **Snowflake Schema** modeling.
-- Relationships were defined between fact and dimension tables using proper keys.
-- Data model optimization techniques were followed to ensure scalability and maintainability.
-
-> 🔗 Refer to this [blog post on data modeling best practices](https://addendanalytics.com/blog/data-modelling-best-practices/) for more guidance.
-
----
-
-## 📂 Dataset Details
-
-- **Source**: MySQL database (imported directly into Power BI)
-- **Data Structure**: Snowflake schema
-- **Types of Tables**:
-  - **Dimension tables**: `dim_customer`, `dim_market`, `dim_product`
-  - **Fact tables**: `fact_sales_monthly`, `fact_forecast_monthly`, `freight_cost`, `gross_price`, `manufacturing_cost`, `pre_invoice_deductions`, `post_invoice_deductions`
-
----
-
 ## 🧠 Business Concepts Covered
 
 - Gross Sales vs Net Sales  
@@ -77,12 +47,43 @@ This end-to-end dashboard was built by following the [Codebasics Power BI Course
 
 ---
 
+## 📂 Dataset Details
+
+- **Source**: MySQL database (imported directly into Power BI)
+- **Data Structure**: Snowflake schema
+- **Types of Tables**:
+  - **Dimension tables**: `dim_customer`, `dim_market`, `dim_product`
+  - **Fact tables**: `fact_sales_monthly`, `fact_forecast_monthly`, `freight_cost`, `gross_price`, `manufacturing_cost`, `pre_invoice_deductions`, `post_invoice_deductions`
+
+---
+
+## 🗃️ Importing Data into Power BI
+
+- The source database for this project is **MySQL**.
+- Data was imported into Power BI Desktop using MySQL Database connector.
+- Access credentials were provided to establish the connection and load the required tables.
+
+---
+
+## 🧩 Data Model
+
+- Data modeling is the **foundation** of a successful Power BI report.  
+- A poor data model can drastically affect report **performance and accuracy**.
+- The project follows **Snowflake Schema** modeling.
+- Relationships were defined between fact and dimension tables using proper keys.
+- Data model optimization techniques were followed to ensure scalability and maintainability.
+
+![data_model.png](https://github.com/RamaniRavi/Business_Insights_360/blob/main/Resources/data_model.png)
+
+---
+
 ## 🧭 Home View
 
 - **Navigation hub** for users to access each business view  
 - Contains buttons with bookmarks to Finance, Sales, Marketing, and Supply Chain views  
 - **Last Refreshed Date** and **data currency info** also displayed  
 - Values are shown in **Millions ($)**  
+![Home.gif](https://github.com/RamaniRavi/Business_Insights_360/blob/main/Resources/Home.gif)
 
 ---
 
@@ -92,6 +93,7 @@ This end-to-end dashboard was built by following the [Codebasics Power BI Course
 - **Profit & Loss Summary**: Revenue, expenses, deductions  
 - **Top & Bottom Customers**: Based on Net Sales and Profitability  
 - Insight into financial health of the organization over time
+![Finace.gif](https://github.com/RamaniRavi/Business_Insights_360/blob/main/Resourcest/Finance.gif)
 
 ---
 
@@ -101,6 +103,7 @@ This end-to-end dashboard was built by following the [Codebasics Power BI Course
 - **Performance Matrix**: Scatter plot to show high-value customers (Net Sales vs GM %)  
 - **Key Metrics by Product Category**: Net Sales, Deductions, COGS, Gross Margin  
 - Helps in identifying high-performing segments
+![Sales.gif](https://github.com/RamaniRavi/Business_Insights_360/blob/main/Resources/Sales.gif)
 
 ---
 
@@ -110,6 +113,7 @@ This end-to-end dashboard was built by following the [Codebasics Power BI Course
 - **Customer Region Analysis**: Based on Net Sales and Profitability  
 - **Unit Economics**: Donut charts for margin breakdown, Waterfall for operational profit  
 - **Performance Matrix**: Filterable by Net Profit % or GM %  
+![Market.gif](https://github.com/RamaniRavi/Business_Insights_360/blob/main/Resources/Market.gif)
 
 ---
 
@@ -119,12 +123,13 @@ This end-to-end dashboard was built by following the [Codebasics Power BI Course
 - **Forecast vs Actual Trends**: Monthly comparisons using combo charts  
 - **Product-wise Error Analysis**: Understand deviation across categories  
 - Helps optimize inventory and reduce cost of storage
+![SupplyChain.gif](https://github.com/RamaniRavi/Business_Insights_360/blob/main/Resources/SupplyChain.gif)
 
 ---
 
 ## 📁 Report File
 
-🔽 Download the Power BI file: [360.pbix](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Report/360.pbix)
+🔽 Download the Power BI file: [business_insights_360.pbix](https://github.com/RamaniRavi/Business_Insights_360/blob/main/Report/business_insights_360.pbix)
 
 ---
 
