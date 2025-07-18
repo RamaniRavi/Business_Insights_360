@@ -10,6 +10,12 @@ This end-to-end dashboard was built by following the [Codebasics Power BI Course
 
 ---
 
+## 📁 Report File
+
+🔽 Download the Power BI file: [business_insights_360.pbix](https://drive.google.com/file/d/1lM3dgmV7529GqoGWvbkLYQ0EL6zPMSEd/view?usp=sharing)
+
+---
+
 ## 🛠️ Tech Stack
 
 - Power BI Desktop  
@@ -124,12 +130,6 @@ This end-to-end dashboard was built by following the [Codebasics Power BI Course
 - **Product-wise Error Analysis**: Understand deviation across categories  
 - Helps optimize inventory and reduce cost of storage
 ![SupplyChain.gif](https://github.com/RamaniRavi/Business_Insights_360/blob/main/Resources/SupplyChain.gif)
-
----
-
-## 📁 Report File
-
-🔽 Download the Power BI file: [business_insights_360.pbix](https://drive.google.com/file/d/1lM3dgmV7529GqoGWvbkLYQ0EL6zPMSEd/view?usp=sharing)
 
 ---
 
